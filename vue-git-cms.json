@@ -1,0 +1,112 @@
+{
+  "pages": [
+    {
+      "title": "Index",
+      "template": "templates/index.html",
+      "destination": "index.html",
+      "type": "html",
+      "default": true,
+      "fragments": [
+        {
+          "id": "headerText",
+          "title": "Header text",
+          "fragment": "fragments/main-headertext.json",
+          "type": "gallery",
+          "maxImages": 1
+        },{
+          "id": "mainTextTitle",
+          "title": "Main text title",
+          "fragment": "fragments/main-text-title.json",
+          "type": "form",
+          "schema": {
+            "fields": [{
+                "type": "input",
+                "inputType": "text",
+                "label": "Title",
+                "model": "title"
+            },{
+                "type": "input",
+                "inputType": "text",
+                "label": "Subtitle",
+                "model": "subtitle"
+            }]
+          }
+        },{
+          "id": "adress",
+          "title": "Adress",
+          "fragment": "fragments/index-adress.html",
+          "type": "html"
+        },{
+          "id": "about",
+          "title": "About us",
+          "fragment": "fragments/index-about.html",
+          "type": "html"
+        },{
+          "id": "menu",
+          "title": "Menu",
+          "fragment": "fragments/index-menu.json",
+          "type": "gallery",
+          "max_image_width": 575,
+          "max_image_height": 390,
+          "maxImages": 6
+        },{
+          "id": "thirdBox",
+          "title": "Third Box",
+          "fragment": "fragments/index-thirdBox.html",
+          "type": "html"
+        },
+        {
+          "id": "thirdBoxImage",
+          "title": "Third Box Image",
+          "fragment": "fragments/index-thirdBoxImage.json",
+          "type": "gallery",
+          "max_image_width": 575,
+          "max_image_height": 390,
+          "maxImages": 1
+        }
+      ]
+    },
+    {
+      "title": "The Place",
+      "template": "templates/compact.html",
+      "fragment": "fragments/the-place.html",
+      "destination": "the-place.html",
+      "type": "html"
+    },
+    {
+      "title": "Photos",
+      "template": "templates/gallery.html",
+      "fragment": "fragments/photos.json",
+      "destination": "photos.html",
+      "type": "html"
+    },
+    {
+      "title": "Contact",
+      "template": "templates/compact.html",
+      "fragment": "fragments/contact.html",
+      "destination": "contact.html",
+      "type": "html"
+    },
+    {
+      "title": "testMenu2",
+      "template": "templates/compact.html",
+      "fragment": "fragments/main.html",
+      "destination": "test-menu2.html",
+      "type": "html"
+    }
+  ],
+  "options": {
+    "heroBackground": "http://subsolardesigns.com/panino/wp-content/uploads/2017/11/26698f29504947.55f6cb41643b4.jpg",
+    "title": "Test site"
+  },
+  "optionsSchema": {
+    "fields": [
+      {
+        "type": "input",
+        "inputType": "text",
+        "label": "heroBackground",
+        "model": "heroBackground"
+      }
+    ]
+  }
+}

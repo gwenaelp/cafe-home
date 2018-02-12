@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518452048/5_fu5cso.jpg",
+      "title": "Plates",
+      "description": "Description"
+    },
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518452069/1_fzvdpa.jpg",
+      "title": "Deserts",
+      "description": "Description"
+    },
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518452086/3_wg2fin.jpg",
+      "title": "CafÃ©",
+      "description": "Description"
+    }
+  ]
+}

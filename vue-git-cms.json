@@ -65,48 +65,19 @@
           "maxImages": 1
         }
       ]
-    },
-    {
-      "title": "The Place",
-      "template": "templates/compact.html",
-      "fragment": "fragments/the-place.html",
-      "destination": "the-place.html",
-      "type": "html"
-    },
-    {
-      "title": "Photos",
-      "template": "templates/gallery.html",
-      "fragment": "fragments/photos.json",
-      "destination": "photos.html",
-      "type": "html"
-    },
-    {
+    }, {
       "title": "Contact",
-      "template": "templates/compact.html",
+      "template": "templates/single.html",
       "fragment": "fragments/contact.html",
       "destination": "contact.html",
-      "type": "html"
-    },
-    {
-      "title": "testMenu2",
-      "template": "templates/compact.html",
-      "fragment": "fragments/main.html",
-      "destination": "test-menu2.html",
       "type": "html"
     }
   ],
   "options": {
-    "heroBackground": "http://subsolardesigns.com/panino/wp-content/uploads/2017/11/26698f29504947.55f6cb41643b4.jpg",
     "title": "Test site"
   },
   "optionsSchema": {
     "fields": [
-      {
-        "type": "input",
-        "inputType": "text",
-        "label": "heroBackground",
-        "model": "heroBackground"
-      }
     ]
   }
 }

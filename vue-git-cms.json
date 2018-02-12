@@ -14,24 +14,6 @@
           "type": "gallery",
           "maxImages": 1
         },{
-          "id": "mainTextTitle",
-          "title": "Main text title",
-          "fragment": "fragments/main-text-title.json",
-          "type": "form",
-          "schema": {
-            "fields": [{
-                "type": "input",
-                "inputType": "text",
-                "label": "Title",
-                "model": "title"
-            },{
-                "type": "input",
-                "inputType": "text",
-                "label": "Subtitle",
-                "model": "subtitle"
-            }]
-          }
-        },{
           "id": "adress",
           "title": "Adress",
           "fragment": "fragments/index-adress.html",

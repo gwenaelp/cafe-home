@@ -15,12 +15,12 @@
           "fields": [{
             "type": "input",
             "inputType": "text",
-            "label": "Name",
-            "model": "name"
+            "label": "Title",
+            "model": "title"
           },{
             "type": "input",
             "inputType": "text",
-            "label": "Name",
+            "label": "Description",
             "model": "description",
           }],
           "maxImages": 1
@@ -45,12 +45,12 @@
           "fields": [{
             "type": "input",
             "inputType": "text",
-            "label": "Name",
-            "model": "name"
+            "label": "Title",
+            "model": "title"
           },{
             "type": "input",
             "inputType": "text",
-            "label": "Name",
+            "label": "Description",
             "model": "description",
           }]
         },{

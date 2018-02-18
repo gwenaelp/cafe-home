@@ -12,6 +12,17 @@
           "title": "Header text",
           "fragment": "fragments/main-headertext.json",
           "type": "gallery",
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Name",
+            "model": "name"
+          },{
+            "type": "input",
+            "inputType": "text",
+            "label": "Name",
+            "model": "description",
+          }],
           "maxImages": 1
         },{
           "id": "adress",
@@ -30,7 +41,18 @@
           "type": "gallery",
           "max_image_width": 575,
           "max_image_height": 390,
-          "maxImages": 6
+          "maxImages": 6,
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Name",
+            "model": "name"
+          },{
+            "type": "input",
+            "inputType": "text",
+            "label": "Name",
+            "model": "description",
+          }]
         },{
           "id": "thirdBox",
           "title": "Third Box",

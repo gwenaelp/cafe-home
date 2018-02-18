@@ -21,7 +21,7 @@
             "type": "input",
             "inputType": "text",
             "label": "Description",
-            "model": "description",
+            "model": "description"
           }],
           "maxImages": 1
         },{
@@ -51,7 +51,7 @@
             "type": "input",
             "inputType": "text",
             "label": "Description",
-            "model": "description",
+            "model": "description"
           }]
         },{
           "id": "thirdBox",
